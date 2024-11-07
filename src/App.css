@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url('./assets/shutterstock-544968547.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  color: rgb(238, 231, 231);
+}
+
+input {
+  padding: 12px;
+  width: 300px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  background-color: rgba(252, 252, 254, 0.795); 
+  color: rgb(80, 77, 77);
+}
+.head{
+  color: rgba(2, 2, 2, 0.518);
+  text-align:left;
+  font-size: 25px;
+  
+  
+}
+
+.subHead{
+  color: rgba(4, 23, 51, 0.807);
+}
+
+button {
+  padding: 8px 20px;
+  background-color: rgba(243, 244, 248, 0.838); 
+  color: rgb(125, 121, 121);
+  border-color: rgba(238, 243, 243, 0);
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(62, 61, 61, 0.6);
+  color: white;
+}
+
+.card {
+  background: linear-gradient(to right, rgba(45, 43, 48, 0.748), rgba(71, 71, 74, 0.556));
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 0;
+  color: black;
+}
+
+.card p {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+}
+
+.weather-image img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.ev{
+  color: rgba(223, 223, 233, 0.896);
+}
+h3{
+  size: 60px;
+}
